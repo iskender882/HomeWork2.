@@ -1,5 +1,7 @@
 package com.geektech;
 
+import java.util.Random;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -26,11 +28,23 @@ public class Main {
             System.out.println("Можно идти гулять");
         }else if  (age < 20 && temp > 0 && temp < 28) {
             System.out.println("Можно гулять");
-            if (age < 45 || temp > -10 && temp < 25){
+            if (age < 45 && temp > -10 && temp < 25){
                 System.out.println("То можно гулять");
             }
 
 
         }
+
     }
+
+//    public static int  generateRandomAge(){int 0,int}{
+//
+//
+//
+//
+//        Random chislo = new Random();
+//    }
+
+
+
 }
